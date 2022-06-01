@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "name":"frango e pizza",
+        "description":"Amet minim mollit non deserunt ullamco est sit aliqua dolor do n desedeserunt ullamco est sit ",
+        "price":23.89,
+        "rating":2,
+        "image":"frangoPizza.png",
+        "category":{
+            "id":4,
+            "name":"combo de pratos"
+        }
+    },
+    {
+        "id":2,
+        "name":"frango masala",
+        "description":"Amet minim mollit non deserunt ullamco est sit aliqua dolor do n desedeserunt ullamco est sit ",
+        "price":67.56,
+        "rating":5,
+        "image":"frangoMasala.png",
+        "category":{
+            "id":6,
+            "name":"carnes"
+        }
+    },
+    {
+        "id":3,
+        "name":"salada de frutas",
+        "description":"Amet minim mollit non deserunt ullamco est sit aliqua dolor do n desedeserunt ullamco est sit ",
+        "price":23.23,
+        "rating":4,
+        "image":"saladaFruta.png",
+        "category":{
+            "id":7,
+            "name":"sobremesa"
+        }
+    },
+    {
+        "id":4,
+        "name":"hambúrguer de frango e fritas",
+        "description":"Amet minim mollit non deserunt ullamco est sit aliqua dolor do n desedeserunt ullamco est sit ",
+        "price":42.34,
+        "rating":4,
+        "image":"hamburgerFritas.png",
+        "category":{
+            "id":2,
+            "name":"hambúrguer e fritas"
+        }
+    },    
+    {
+        "id":5,
+        "name":"peixe frito do mar",
+        "description":"Amet minim mollit non deserunt ullamco est sit aliqua dolor do n desedeserunt ullamco est sit ",
+        "price":54.54,
+        "rating":3,
+        "image":"peixeFrito.png",
+        "category":{
+            "id":1,
+            "name":"peixes"
+        }
+    },
+    {
+        "id":6,
+        "name":"arroz temperado e strogonoff",
+        "description":"Amet minim mollit non deserunt ullamco est sit aliqua dolor do n desedeserunt ullamco est sit ",
+        "price":64.54,
+        "rating":3,
+        "image":"arrozStrog.png",
+        "category":{
+            "id":4,
+            "name":"combo de pratos"
+        }
+    }
+]
