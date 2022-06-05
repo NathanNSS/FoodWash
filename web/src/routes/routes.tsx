@@ -6,18 +6,19 @@ import Home from '../pages/Home';
 
 export default function AppRouter() {
     return (
-        <main>
-            <Router>
-                <Menu />
-                <Routes>
-                    <Route path='/'>
-                        <Route index={true} element={<Home />} />
+        <Router>
+            <Menu />
+                <main>
+                    <Routes>
+                        <Route path='/'>
+                            <Route index={true} element={<Home />} />
 
-                    </Route>
-                    <Route path='*' element={<NotFound/>}/>
-                </Routes>
-                <Footer />
-            </Router>
-        </main>
+                        </Route>
+                        <Route path='*' element={<NotFound/>}/>
+                    </Routes>
+                </main>
+            <Footer />
+        </Router>
+        
     )
 }

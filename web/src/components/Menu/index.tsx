@@ -1,4 +1,4 @@
-import { Container, Header, ItemLista, Link, Lista, Nav } from "./stylesMenu";
+import { Container, Header, ItemLista, Links, Lista, Nav } from "./stylesMenu";
 
 import Button from "../Button";
 import Logo from "../Logo";
@@ -10,10 +10,10 @@ export default function Menu() {
                 <Logo/>
                 <Nav>
                     <Lista>
-                        <ItemLista><Link on href="">Home</Link></ItemLista>
-                        <ItemLista><Link href="">Menu</Link></ItemLista>
-                        <ItemLista><Link href="">Service</Link></ItemLista>
-                        <ItemLista><Link href="">Aboutus</Link> </ItemLista>
+                        <ItemLista><Links $ativo={true} to="/">Home</Links></ItemLista>
+                        <ItemLista><Links to="/">Menu</Links></ItemLista>
+                        <ItemLista><Links to="/">Service</Links></ItemLista>
+                        <ItemLista><Links to="/">Aboutus</Links> </ItemLista>
                     </Lista>
                     <Button name="Log in" outLine></Button>
                 </Nav>

@@ -55,24 +55,24 @@ export default function Footer() {
 
                 <ul>
                     <Item>
-                        <ContentLinks href="#">
+                        <ContentLinks to="/">
                             Sobre Nós
                         </ContentLinks>
                     </Item>
 
                     <Item>
-                        <ContentLinks href="#">
+                        <ContentLinks to="/">
                             Mais Pesquisa
                         </ContentLinks>
                     </Item>
                     <Item>
-                        <ContentLinks href="#">
+                        <ContentLinks to="/">
                             Pedido Online
                         </ContentLinks>
                     </Item>
                     
                     <Item>
-                        <ContentLinks href="#">
+                        <ContentLinks to="/">
                             Suporte
                         </ContentLinks>
                     </Item>
@@ -80,24 +80,24 @@ export default function Footer() {
 
                 <ul>
                     <Item>
-                        <ContentLinks href="#">
+                        <ContentLinks to="/">
                             Launch
                         </ContentLinks>
                     </Item>
 
                     <Item>
-                        <ContentLinks href="#">
+                        <ContentLinks to="/">
                             Jantar
                         </ContentLinks>
                     </Item>
                     <Item>
-                        <ContentLinks href="#">
+                        <ContentLinks to="/">
                             Refeições
                         </ContentLinks>
                     </Item>
                     
                     <Item>
-                        <ContentLinks href="#">
+                        <ContentLinks to="/">
                             Privacidade
                         </ContentLinks>
                     </Item>
@@ -105,24 +105,24 @@ export default function Footer() {
 
                 <ul>
                     <Item>
-                        <ContentLinksI href="#">
+                        <ContentLinksI to="/">
                             <FiPhone size={23}/> (225) 555-0118
                         </ContentLinksI>
                     </Item>
 
                     <Item>
-                        <ContentLinksI href="#">
+                        <ContentLinksI to="/">
                             <GoMail size={25}/> alma.lawson@example.com
                         </ContentLinksI>
                     </Item>
                     <Item>
-                        <ContentLinksI href="#">
+                        <ContentLinksI to="/">
                             <VscGlobe size={23}/> http://www.foodwash.com
                         </ContentLinksI>
                     </Item>
                     
                     <Item>
-                        <ContentLinksI href="#">
+                        <ContentLinksI to="/">
                             <IoLocationOutline size={40}/> Binford Ltd, 88 Brooklyn Golden Street, New york, USA
                         </ContentLinksI>
                     </Item>

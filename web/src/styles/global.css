@@ -133,6 +133,16 @@ table {
     border-spacing: 0;
 }
 
+#root>main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+    justify-content: flex-end;
+}
+
 @media (max-width:1200px) {
     main {
         margin: 0px 15px;

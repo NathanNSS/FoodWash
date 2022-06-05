@@ -1,11 +1,13 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { theme } from "../../styles/theme";
 
 export const Rodape = styled.footer`
-    position: absolute;//trocar position
+    position: relative;//trocar position: ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
-    left:0;
-    bottom:0;
     height: 650px;
     background-color: ${theme.colors.bg_preto};
 `
@@ -15,17 +17,16 @@ export const Container = styled.div`
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: auto auto ;
     align-items: flex-start;
-    
-    max-width: 1200px;
+    min-width: 1300px;
     max-height: 550px;
-    margin: 90px auto 0 auto;
+    margin:  0 auto;
     //border: 1px solid #fff;
     color:#fff;
 `
 
 export const NewsLetter = styled.div`
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding: 40px 30px;
     //width: 100%;
@@ -51,7 +52,7 @@ export const TitleContent = styled.div`
     font-weight: 600;
     font-size: 30px;
 `
-export const ContainerText = styled.p`
+export const ContainerText = styled.div`
     max-width: 270px;
     font-family: ${theme.fonts.Roboto};
     font-weight: 400;
@@ -72,7 +73,7 @@ export const Item = styled.li`
     margin-bottom: 23px;
 `
 
-export const ContentLinks = styled.a`
+export const ContentLinks = styled(Link)`
     font-family: ${theme.fonts.Nunito};
     font-style: normal;
     font-weight: 400;
@@ -80,17 +81,18 @@ export const ContentLinks = styled.a`
     text-decoration: none;
     color: #FAF9F9;
     opacity: 90%;
-    text-align: center;
+    text-align: start;
     
 `
 
-export const ContentLinksI = styled.a`
+export const ContentLinksI = styled(ContentLinks)`
     display: flex;
     align-items: center;
     font-family: ${theme.fonts.Nunito};
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
+    line-height: 30px;
     text-decoration: none;
     color: #FAF9F9;
     opacity: 90%;

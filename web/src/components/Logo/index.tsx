@@ -10,7 +10,7 @@ export default function Logo({ size, off = false }: Props) {
     return (
         <div>
             <SLogo off={off} size={size}>Food</SLogo>
-            <SLogo on size={size}>wash</SLogo>
+            <SLogo ativo={true} size={size}>wash</SLogo>
         </div>
     );
 }
