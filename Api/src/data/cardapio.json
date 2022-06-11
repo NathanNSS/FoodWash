@@ -8,7 +8,8 @@
         "image":"frangoPizza.png",
         "category":{
             "id":4,
-            "name":"combo de pratos"
+            "name":"combo de pratos",
+            "image":"combo.svg"
         }
     },
     {
@@ -20,7 +21,8 @@
         "image":"frangoMasala.png",
         "category":{
             "id":6,
-            "name":"carnes"
+            "name":"carnes",
+            "image":"carne.svg"
         }
     },
     {
@@ -32,7 +34,8 @@
         "image":"saladaFruta.png",
         "category":{
             "id":7,
-            "name":"sobremesa"
+            "name":"sobremesa",
+            "image":"sobremesa.svg"
         }
     },
     {
@@ -44,7 +47,8 @@
         "image":"hamburgerFritas.png",
         "category":{
             "id":2,
-            "name":"hambúrguer e fritas"
+            "name":"hambúrguer e fritas",
+            "image":"burger.svg"
         }
     },    
     {
@@ -56,7 +60,8 @@
         "image":"peixeFrito.png",
         "category":{
             "id":1,
-            "name":"peixes"
+            "name":"peixes",
+            "image":"fish.svg"
         }
     },
     {
@@ -68,7 +73,47 @@
         "image":"arrozStrog.png",
         "category":{
             "id":4,
-            "name":"combo de pratos"
+            "name":"combo de pratos",
+            "image":"combo.svg"
+        }
+    },
+    {
+        "id":7,
+        "name":"arroz temperado e strogonoff",
+        "description":"Amet minim mollit non deserunt ullamco est sit aliqua dolor do n desedeserunt ullamco est sit ",
+        "price":64.54,
+        "rating":3,
+        "image":"arrozStrog.png",
+        "category":{
+            "id":9,
+            "name":"combo de pratos",
+            "image":"combo.svg"
+        }
+    },
+    {
+        "id":8,
+        "name":"arroz temperado e strogonoff",
+        "description":"Amet minim mollit non deserunt ullamco est sit aliqua dolor do n desedeserunt ullamco est sit ",
+        "price":64.54,
+        "rating":3,
+        "image":"arrozStrog.png",
+        "category":{
+            "id":11,
+            "name":"combo de pratos",
+            "image":"combo.svg"
+        }
+    },
+    {
+        "id":9,
+        "name":"arroz temperado e strogonoff",
+        "description":"Amet minim mollit non deserunt ullamco est sit aliqua dolor do n desedeserunt ullamco est sit ",
+        "price":64.54,
+        "rating":3,
+        "image":"arrozStrog.png",
+        "category":{
+            "id":42,
+            "name":"combo de pratos",
+            "image":"combo.svg"
         }
     }
 ]
