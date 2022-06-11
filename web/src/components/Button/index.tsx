@@ -1,13 +1,14 @@
 import { Container } from "./stylesButton";
 
 interface Props {
-    name:string;
+    name: string;
     outLine?: boolean;
+    buttonCart?: boolean;
 }
 
-export default function Button({name, outLine}: Props) {
+export default function Button({ name, outLine, buttonCart }: Props) {
     return (
-        <Container outLine={outLine}>
+        <Container outLine={outLine} buttonCart={buttonCart}>
             {name}
         </Container>
     )

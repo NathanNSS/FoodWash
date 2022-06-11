@@ -51,14 +51,18 @@ export const ContainerChefs = styled.section`
     align-items: center;
 `
 export const FigureChef = styled.figure`
-    display: flex;
-    flex-flow: column;
-    text-align: center;
+    display: grid;
+    & img{
+        grid-column: 1;
+        grid-row: 1/3;
+    }
     & div{
+        grid-column: 1;
+        grid-row: 2/3;
         position: relative;
         background-color: rgba(225, 30, 32, 0.6);
-        bottom:80px;
-        border-radius: 4px ;
+        text-align: center;
+        border-radius: 6px ;
         border-end-end-radius: 10px;
         padding: 10px 0;
         font-family: ${theme.fonts.Nunito};

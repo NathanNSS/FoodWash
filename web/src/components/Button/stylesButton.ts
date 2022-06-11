@@ -3,6 +3,7 @@ import { theme } from "../../styles/theme";
 
 interface IButton {
     outLine?: boolean;
+    buttonCart?: boolean;
 }
 
 export const Container = styled.button<IButton>`
@@ -15,11 +16,18 @@ export const Container = styled.button<IButton>`
     font-weight: 400;
     font-size: 16px;
     cursor: pointer;
+    ${props => props.buttonCart && `
+        padding: 11px 20px;
+        font-size:14px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        border-radius:10px;
+    `}
     &:hover{
-        ${props => props.outLine &&`
-            padding: 15px 44px;
+        ${props => props.outLine && `
+            ${!props.buttonCart && `padding: 15px 44px;`}
             border: ${!props.outLine ? `1px solid ${theme.colors.prymary}` : 'none'};
-            background-color: ${ !props.outLine ? '#FFF' : theme.colors.prymary};
+            background-color: ${!props.outLine ? '#FFF' : theme.colors.prymary};
             color: ${!props.outLine ? theme.colors.prymary : '#FFF'};
         `}
         
