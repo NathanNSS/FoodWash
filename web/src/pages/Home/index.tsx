@@ -72,7 +72,7 @@ export default function Home() {
 
     return (
         <>
-            <ContainerHero>
+            <ContainerHero id="Home">
                 <ContentHero>
                     <TitleHero>
                         <b>Alimentação Instantânea</b>, Para a Fome Instantânea
@@ -94,7 +94,7 @@ export default function Home() {
             <Cardapio cardapio={cardapio} />
 
             <ContentPresentation title='Nossos Chefs Especiais' text={lorem} />
-            <ContainerChefs>
+            <ContainerChefs id="Service">
                 <FigureChef>
                     <img src={`${api.defaults.baseURL}files/chef1.png`} alt="Chef John Plavor" />
                     <div>
@@ -137,7 +137,7 @@ export default function Home() {
                 }
             </ContainerBlogNews>
 
-            <ContainerApp>
+            <ContainerApp id="About">
                 <BannerApp src={`${api.defaults.baseURL}files/bannerApp.svg`} alt="bannerApp"/>
                 <ContentAPP>
                     <Title>
