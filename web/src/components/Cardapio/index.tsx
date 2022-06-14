@@ -58,7 +58,7 @@ export default function Cardapio({ cardapio }: Props) {
             <Menu>
                 {/* {JSON.stringify(lista)} */}
                 {lista?.map(item => (
-                    <CardCardapio data={item}/>
+                    <CardCardapio data={item} key={item.id}/>
                 ))}
             </Menu>
         </Container>

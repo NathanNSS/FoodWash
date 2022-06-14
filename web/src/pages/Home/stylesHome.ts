@@ -82,3 +82,71 @@ export const ContainerHowWorks = styled.section`
     justify-content: space-between;
     margin-bottom: 110px;
 `
+
+export const ContainerBlogNews = styled.section`
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    row-gap: 43px;
+    margin-bottom: 122px;
+`
+
+export const ContainerApp = styled.section`
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 60px;
+`
+export const BannerApp = styled.img`
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-right: 58px;
+`
+export const ContentAPP = styled.div`
+    display: flex;
+    flex-direction: column;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    height: 100%;
+`
+
+export const StepByStep = styled.div`
+    display: flex;
+    flex-direction: column;    
+    margin: 30px 0px 60px 0px;
+`
+export const Step = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 26px;
+`
+export const Num = styled.h3`
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 21px;
+    background-color: ${theme.colors.prymary};
+    font-size: 18;
+    font-family: ${theme.fonts.Roboto};
+    color: #FFFFFF;
+    margin-right: 15px;
+`
+export const TextAPP = styled.span`
+    font-family: ${theme.fonts.Roboto};
+    font-size: 20px;
+    font-weight:400;
+    color: ${theme.colors.bg_preto};
+`
+
+export const ContainerStore = styled.div`
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    & img:first-child{
+        margin-right: 65px;
+    }
+`

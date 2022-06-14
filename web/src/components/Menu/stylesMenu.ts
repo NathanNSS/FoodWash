@@ -18,6 +18,7 @@ export const Header = styled.header`
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
     margin-bottom: 180px;
     background-color:  #FFF;
+    z-index: 10;
 `
 export const Container = styled.div`
     display: flex;

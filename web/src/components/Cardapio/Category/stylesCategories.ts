@@ -14,6 +14,7 @@ export const Container = styled.div<ICategory>`
     align-items: center;
     border-radius: 100px;
     margin-right: 50px;
+    margin-bottom: 5px;
     background-color: ${ props => props.ativo && theme.colors.prymary};
     cursor: pointer;
     & span{
