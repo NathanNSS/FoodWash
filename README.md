@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 > Api
 - [NodeJS](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Expless](https://expressjs.com/)
+- [Express](https://expressjs.com/)
 - [Cors](https://github.com/expressjs/cors)
 
 ## 🚀 Como executar
